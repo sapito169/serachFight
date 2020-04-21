@@ -42,7 +42,7 @@ namespace NUnitTestProject1
         {
 
 
-              Mock<HttpRequester> requester = new Mock<HttpRequester>();
+            Mock<HttpRequester> requester = new Mock<HttpRequester>();
             requester.Setup(m => m.request("https://www.bing.com/search?q=.net")).Returns("<html><body><span id=\"search\">1000</span class=\"important\"></body></html>");
             requester.Setup(m => m.request("https://www.google.com/search?q=.net")).Returns("<html><body><span id=\"search-go\">2000</span class=\"important\"></body></html>");
 
