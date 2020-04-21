@@ -27,9 +27,12 @@ namespace searchFight
             SerachFight serachFight = new SerachFight((x) => Console.WriteLine(x));
 
 
-
-            serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, ".net", searhEngineSources));
-            serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, "java", searhEngineSources));
+            foreach (string arg in args )
+            {
+                serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, arg, searhEngineSources));
+                
+            }
+             
 
 
             serachFight.terminateAndWrite();

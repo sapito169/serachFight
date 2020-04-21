@@ -19,6 +19,8 @@ namespace searchFight
         }
         public void addAndExecute(SearchComparation searchComparation)
         {
+
+             
             writer.Invoke(  searchComparation.parseToString() +"\n");
             double currentMax=searchComparation.max();
             if ( currentMax>maximun)
