@@ -1,0 +1,13 @@
+C:\Users\Usuario\source\repos\searchFight\searchFight\bin\Debug\netcoreapp3.1\searchFight.exe
+C:\Users\Usuario\source\repos\searchFight\searchFight\bin\Debug\netcoreapp3.1\searchFight.deps.json
+C:\Users\Usuario\source\repos\searchFight\searchFight\bin\Debug\netcoreapp3.1\searchFight.runtimeconfig.json
+C:\Users\Usuario\source\repos\searchFight\searchFight\bin\Debug\netcoreapp3.1\searchFight.runtimeconfig.dev.json
+C:\Users\Usuario\source\repos\searchFight\searchFight\bin\Debug\netcoreapp3.1\searchFight.dll
+C:\Users\Usuario\source\repos\searchFight\searchFight\bin\Debug\netcoreapp3.1\searchFight.pdb
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.dll
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.pdb
+C:\Users\Usuario\source\repos\searchFight\searchFight\obj\Debug\netcoreapp3.1\searchFight.genruntimeconfig.cache

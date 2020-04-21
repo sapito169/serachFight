@@ -1,0 +1,4 @@
+C:\Users\Usuario\source\repos\searchFight\searchFightTests\obj\Debug\netcoreapp3.1\searchFightTests.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\searchFight\searchFightTests\obj\Debug\netcoreapp3.1\searchFightTests.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\searchFight\searchFightTests\obj\Debug\netcoreapp3.1\searchFightTests.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\searchFight\searchFightTests\obj\Debug\netcoreapp3.1\searchFightTests.AssemblyInfo.cs
