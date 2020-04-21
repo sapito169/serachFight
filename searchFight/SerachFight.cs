@@ -46,7 +46,7 @@ namespace searchFight
 
         public void terminateAndWrite()
         {
-            Console.WriteLine(winnerMap);
+            //Console.WriteLine(winnerMap);
             writer.Invoke("Total winner: "+ maximunCompetitor);
           
 

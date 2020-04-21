@@ -20,7 +20,7 @@ namespace searchFight
             List<SearhEngineSource> searhEngineSources = new List<SearhEngineSource>();
 
             searhEngineSources.Add(new SearhEngineSource("<span class=\"sb_count\">", "resultados</span><span class=\"ftrB\"><a class=\"ftrH\" id=\"h5076\"", "https://www.bing.com/search?q=","MSN"));
-            //searhEngineSources.Add(new SearhEngineSource("<div id=\"result - stats\">Cerca de", "sufjo resultados<nobr>" , "https://www.google.com/search?q=", "Google"));
+           // searhEngineSources.Add(new SearhEngineSource("<div id=\"result - stats\">Cerca de", "resultados<nobr>" , "https://www.google.com/search?q=", "Google"));
 
 
              
@@ -29,7 +29,7 @@ namespace searchFight
             
 
             serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, ".net", searhEngineSources));
-            //serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, "java", searhEngineSources));
+           // serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, "java", searhEngineSources));
 
 
             serachFight.terminateAndWrite();
