@@ -29,7 +29,7 @@ namespace searchFight
 
             foreach (string arg in args )
             {
-                serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, arg, searhEngineSources));
+                serachFight.addAndExecute(new SearchComparation(httpRequester, extractor, arg.Replace(" ","%20"), searhEngineSources));
                 
             }
              

@@ -68,7 +68,7 @@ namespace searchFight
         public  string parseToString( )
         {
 
-            string result = _competitor+": ";
+            string result = _competitor.Replace("%20"," ")+": ";
             List<SearchComparatorResult> list = obteinResults();
             foreach (SearchComparatorResult current in list)
             {
