@@ -19,7 +19,7 @@ namespace searchFight
 
             List<SearhEngineSource> searhEngineSources = new List<SearhEngineSource>();
 
-           // searhEngineSources.Add(new SearhEngineSource("<span class=\"sb_count\">", "resultados</span><span class=\"ftrB\"><a class=\"ftrH\" id=\"h5076\"", "https://www.bing.com/search?q=", "MSN"));
+            searhEngineSources.Add(new SearhEngineSource("<span class=\"sb_count\">", "resultados</span><span class=\"ftrB\"><a class=\"ftrH\" id=", "https://www.bing.com/search?q=", "MSN"));
             searhEngineSources.Add(new SearhEngineSource("</style>Cerca de", "resultados<nobr>", "https://www.google.com/search?q=", "Google"));
 
 
