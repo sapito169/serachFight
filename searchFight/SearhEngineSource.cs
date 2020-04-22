@@ -10,7 +10,7 @@ namespace searchFight
         private readonly string _prefix;
         private readonly string _sufix;
         private readonly string _url;
-        private readonly string _smallName;
+        private   string _smallName;
 
         public SearhEngineSource(string prefix,string sufix,string url, string smallName)
         {
@@ -34,7 +34,7 @@ namespace searchFight
         public string smallName
         {
             get { return _smallName; }
-
+            set {   _smallName=value; }
         }
 
         public string url
