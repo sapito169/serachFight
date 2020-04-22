@@ -8,9 +8,9 @@ namespace searchFight
    
     public class SearchComparatorResult
     {
-        readonly string _competitor;
-          string _result;
-        readonly SearhEngineSource _searhEngineSource;
+        private  string _competitor;
+        private string _result;
+        private readonly SearhEngineSource _searhEngineSource;
         public SearchComparatorResult(string competitor, SearhEngineSource searhEngineSource, string result) {
             this._competitor = competitor;
             this._result = result;
@@ -21,7 +21,7 @@ namespace searchFight
         public string competitor
         {
             get { return _competitor; }
-             
+            set { _competitor = value; }
         }
 
         public string result

@@ -40,16 +40,7 @@ namespace searchFight
 
         static private List<SearchComparatorResult> add(List<SearchComparatorResult> old, List<SearchComparatorResult> current )
         {
-            /*SearchComparatorResult
-                string _result;
-        
-                SearhEngineSource{
-                    _prefix;
-                    _sufix;
-                    _url;
-                    _smallName;
-                 }
-             */
+            
             if (old == null)
             {
                 old = current;
@@ -59,10 +50,11 @@ namespace searchFight
             {
                 for(int c = 0; c < current.Count; c++)
                 {
-                    if (double.Parse(limpia(old[c].result)) >  double.Parse(limpia(current[c].result) ))
+                    if (double.Parse(limpia(old[c].result)) <  double.Parse(limpia(current[c].result) ))
                     {
                         old[c].result = current[c].result;
-                        old[c].searhEngineSource.smallName = current[c].result;
+                        old[c].searhEngineSource.smallName = current[c].searhEngineSource.smallName;
+                        old[c].competitor = current[c].competitor;
                     } 
                 }
 
@@ -72,9 +64,13 @@ namespace searchFight
 
         public void terminateAndWrite()
         {
-            //Console.WriteLine(winnerMap);
+            for (int c = 0; c < searchComparatorResult.Count; c++)
+            {
+                writer.Invoke(searchComparatorResult[c].searhEngineSource.smallName+" winner: "+ searchComparatorResult[c].competitor.Replace("%20"," ") + "\n") ;
+            }
+
             writer.Invoke("Total winner: "+ maximunCompetitor);
-          
+           
 
         }
     }

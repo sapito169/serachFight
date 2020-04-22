@@ -53,6 +53,8 @@ namespace NUnitTestProject1
             var expexted = "";
             expexted += ".net: Google: 1000 MSN: 2050\n";
             expexted += "java: Google: 2000 MSN: 50\n";
+            expexted += "Google winner: java\n";
+            expexted += "MSN winner: .net\n";
             expexted += "Total winner: .net";
 
              Assert.AreEqual(expexted, mensaje );
